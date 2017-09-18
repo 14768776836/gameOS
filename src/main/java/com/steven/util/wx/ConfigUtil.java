@@ -17,7 +17,7 @@ public class ConfigUtil {
 	public final static String MCH_ID = "1453450802";
 	/** API密钥用户自己设置 */
 	public final static String API_KEY = "C50E092772003E8BAFAD8FB7D453888C";
-	/** 签名加密方式 */
+	/** 签名加密方式   c测试git提交*/
 	public final static String SIGN_TYPE = "MD5";
 	/** 微信支付证书存放路径地址 */
 	public final static String CERT_PATH = "D:/apiclient_cert.p12";
