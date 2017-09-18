@@ -9,26 +9,26 @@ package com.steven.util.wx;
  */
 public class ConfigUtil {
 	/** app应用的ID */
-	public final static String APPID = "";
+	public final static String APPID = "wx97f93285af090c3e";
 	/** app应用的应用密码 */
-	public final static String APP_SECRECT = "";
+	public final static String APP_SECRECT = "1f9470d9289615b41e0a6b487bbe5b85";
 	public final static String TOKEN = "weixinCourse";// 服务号的配置token
 	/** app商户号 */
-	public final static String MCH_ID = "MCH_ID";
+	public final static String MCH_ID = "1453450802";
 	/** API密钥用户自己设置 */
-	public final static String API_KEY = "API_KEY";
+	public final static String API_KEY = "C50E092772003E8BAFAD8FB7D453888C";
 	/** 签名加密方式 */
 	public final static String SIGN_TYPE = "MD5";
 	/** 微信支付证书存放路径地址 */
 	public final static String CERT_PATH = "D:/apiclient_cert.p12";
 	/** 微信公众号的ID */
-	public final static String APPIDH5 = "APPIDH5";
+	public final static String APPIDH5 = "wx97f93285af090c3e";
 	/** 微信公众号的应用密码 */
-	public final static String APP_SECRECTH5 = "APP_SECRECTH5";
+	public final static String APP_SECRECTH5 = "1f9470d9289615b41e0a6b487bbe5b85";
 	/** 微信公众号商户号 */
-	public final static String MCH_IDH5 = "MCH_IDH5";
+	public final static String MCH_IDH5 = "1453450802";
 	/** API密钥用户自己设置 */
-	public final static String API_KEYH5 = "API_KEYH5";
+	public final static String API_KEYH5 = "C50E092772003E8BAFAD8FB7D453888C";
 	/** 微信支付统一接口的回调d */
 	public final static String NOTIFY_URL = "";
 	/** 微信支付成功支付后跳转的地址 */
@@ -44,12 +44,6 @@ public class ConfigUtil {
 	public final static String OAUTH2_URL = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code";
 	/** 刷新access_token接口（GET） */
 	public final static String REFRESH_TOKEN_URL = "https://api.weixin.qq.com/sns/oauth2/refresh_token?appid=APPID&grant_type=refresh_token&refresh_token=REFRESH_TOKEN";
-	/** 菜单创建接口（POST） */
-	public final static String MENU_CREATE_URL = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=ACCESS_TOKEN";
-	/** 菜单查询（GET） */
-	public final static String MENU_GET_URL = "https://api.weixin.qq.com/cgi-bin/menu/get?access_token=ACCESS_TOKEN";
-	/** 菜单删除（GET） */
-	public final static String MENU_DELETE_URL = "https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=ACCESS_TOKEN";
 	/**
 	 * 微信支付接口地址
 	 */
@@ -67,6 +61,4 @@ public class ConfigUtil {
 	public final static String DOWNLOAD_BILL_URL = "https://api.mch.weixin.qq.com/pay/downloadbill";
 	/** 短链接转换接口(POST) */
 	public final static String SHORT_URL = "https://api.mch.weixin.qq.com/tools/shorturl";
-	/** 接口调用上报接口(POST) */
-	public final static String REPORT_URL = "https://api.mch.weixin.qq.com/payitil/report";
 }
