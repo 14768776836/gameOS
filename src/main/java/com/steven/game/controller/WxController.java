@@ -118,13 +118,11 @@ public class WxController {
 	/**
 	 *
 	 * 方法描述: H5向微信请求支付信息<br>
-	 *
-	 * @return <br>
-	 * @return String <br>
-	 * @作者： 张海洋 <br>
-	 * @创建时间： 2016-4-5 下午01:03:40
+	 * 作者：田帅 <br>
+	 * 创建时间：2017-09-16 <br>
+	 * 版本：V1.0
 	 */
-	@RequestMapping(value = "/wxpay_getWXPayXmlH5")
+	@RequestMapping(value = "/getWXPayXmlH5")
 	@ResponseBody
 	public Object getWXPayXmlH5(HttpServletRequest request, HttpServletResponse response, @RequestParam(defaultValue = "0") int userId, String out_trade_no, String status) {
 		Map<String, Object> json = new HashMap<String, Object>();
